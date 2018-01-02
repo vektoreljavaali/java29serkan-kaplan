@@ -95,11 +95,11 @@ public class FrmEgitici {
 		frame.getContentPane().add(txtSoyad);
 		txtSoyad.setColumns(10);
 		
-		JFormattedTextField txtTC = new JFormattedTextField(new MaskFormatter("###########"));
+		txtTC = new JFormattedTextField(new MaskFormatter("###########"));
 		txtTC.setBounds(107, 91, 105, 20);
 		frame.getContentPane().add(txtTC);
 		
-		JFormattedTextField txtGSM = new JFormattedTextField(new MaskFormatter("0###-###-##-##"));
+		txtGSM = new JFormattedTextField(new MaskFormatter("0###-###-##-##"));
 		txtGSM.setBounds(107, 136, 105, 20);
 		frame.getContentPane().add(txtGSM);
 		
@@ -138,7 +138,7 @@ public class FrmEgitici {
 		btnCikis.setBounds(331, 262, 89, 56);
 		frame.getContentPane().add(btnCikis);
 		
-		JFormattedTextField txtCalismaSaatleri = new JFormattedTextField(new MaskFormatter("##:## - ##:##"));
+		txtCalismaSaatleri = new JFormattedTextField(new MaskFormatter("##:## - ##:##"));
 		txtCalismaSaatleri.setBounds(354, 50, 105, 20);
 		frame.getContentPane().add(txtCalismaSaatleri);
 	}
